@@ -124,7 +124,7 @@ screen, guiding the user through the onboarding and crypto transfer process.
 > more about how to set up your integration.
 
 `meso-js` can be used in vanilla JavaScript or TypeScript applications as well
-as within popular frameworks such a [React](#react).
+as within popular frameworks such as [React](#react).
 
 ### Vanilla JavaScript/TypeScript
 
@@ -307,7 +307,7 @@ While awaiting transfer completion, you can display a loading state for the
 user. Upon completion, the SDK will provide the transfer details for display to
 the user.
 
-Please note,if the Meso experience is closed (via [`destroy`](#transfer)),
+Please note, if the Meso experience is closed (via [`destroy`](#transfer)),
 there's no way to check the transfer's status. It's best to wait for the
 `COMPLETE` event.
 
@@ -430,7 +430,7 @@ their wallet to prove ownership.
 
 #### Headless wallet verification
 
-In cases such as embedded wallets, message signing may need be transparent to
+In cases such as embedded wallets, message signing may need to be transparent to
 the user. In these cases, passing will allow you to perform
 message signing yourself in the background.
 
